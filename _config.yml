@@ -8,7 +8,7 @@
 # Site settings
 title: Your awesome title
 email: your-email@domain.com
-description: > This site is nothing else than a playground for my ideas
+description: This site is nothing else than a playground for my ideas
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lbvd.github.io" # the base hostname & protocol for your site
 github_username:  lbvd
