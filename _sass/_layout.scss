@@ -243,8 +243,68 @@
 
 // additional classes
 
-.about-style{
-   height: 80px;
+.about-style {
+   
    background-image: url("/images/p1.jpg");
+   height: 400px;
+
    background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   backround-size: cover;
+}
+@media only screen and (max-device-width: 1366px) {
+  .about-style {
+    background-attachment: scroll;
+  }
+}
+
+// for includes text.html
+.image1-text {
+   background-image: url("/images/p1.jpg");
+   height: 400px;
+
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   backround-size: cover;
+
+}
+
+.image2-text {
+   position: relative;
+   width: 50%;
+}
+
+.image-t {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+
+.overlay-t {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.image2-text:hover .overlay-t {
+  opacity: 1;
+}
+
+.text-t {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
