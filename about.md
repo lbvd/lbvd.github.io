@@ -22,7 +22,7 @@ If you have any questions about me or my projects in general, please feel free t
 
 <br>
 
-[The Lego project](www.pb-ld.org)
+[The Lego project](https://pb-ld.org/)
 
 ***
 
