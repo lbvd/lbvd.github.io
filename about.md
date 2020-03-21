@@ -4,12 +4,29 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+<div class="about_style">
+</div>
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+***
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+**Hello dear visitors of my webiste.**
+
+I have fun to design and discover things. Among other things I work in my spare time on a website which is about Lego Star Wars.
+But I am also open for many other things and I am interested in the opinion of other human individuals. 
+If you have any questions about me or my projects in general, please feel free to send me an email.
+
+***
+
+[The Lego project](https://pb-ld.org)
+
+***
+
+[Send me an email](mailto:lbvd@protonmail.com)
+
+***
+
+[My Github Repositories](https://github.com/lbvd)
+
+***
+
+Thank you!
