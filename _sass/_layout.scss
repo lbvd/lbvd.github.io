@@ -260,7 +260,7 @@
 }
 
 // for includes text.html
-.image1-text {
+.image1-text_a {
    background-image: url("/images/p1.jpg");
    height: 200px;
 
@@ -270,6 +270,24 @@
    backround-size: cover;
 
 }
+
+.image1-text_b {
+   background-image: url("/images/p2.jpg");
+   height: 200px;
+
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   backround-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .image1-text_a,
+  .image1-text_b {
+    background-attachment: scroll;
+  }
+}
+
 
 .image2-text {
    position: relative;
@@ -307,4 +325,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+.title-text {
+
+   background-color: #aaaaaa;
+   font-size: 20px;
+   font-color: #0a0a0a;
+   font-family: "Times New Roman", Times, serif;
+
 }
