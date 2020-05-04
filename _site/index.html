@@ -1,5 +1,26 @@
 <!DOCTYPE html>
 <html>
+  <script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
 
   <head>
   <meta charset="utf-8">
@@ -21,7 +42,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/">LBVD</a>
+    <a class="site-title" href="/"><img src="/images/home.jpg" alt="home"></a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -71,11 +92,11 @@
 <div class="title-text">
    <br>
    <h1>
-     welcome to my personal website
+     Willkommen auf meiner persönlichen Website
    </h1>
    <br>
    <p>
-     On this website you will find links to my various projects. If you want to know more about me read my about page.
+     Auf dieser Website finden sie Verbindungen zu weiteren Projekten von mir. Falls sie anmerkungen haben schreiben sie mir gerne eine Email.
    </p>
    <br>
 </div>

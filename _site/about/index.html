@@ -1,5 +1,26 @@
 <!DOCTYPE html>
 <html>
+  <script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i, txtValue;
+  input = document.getElementById('myInput');
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myUL");
+  li = ul.getElementsByTagName('li');
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    txtValue = a.textContent || a.innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
 
   <head>
   <meta charset="utf-8">
@@ -21,7 +42,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/">LBVD</a>
+    <a class="site-title" href="/"><img src="/images/home.jpg" alt="home"></a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -76,11 +97,10 @@
 
 <hr />
 
-<p><strong>Hello dear visitors of my webiste.</strong></p>
-
-<p>I have fun to design and discover things. Among other things I work in my spare time on a website which is about Lego Star Wars.
-But I am also open for many other things and I am interested in the opinion of other human individuals. 
-If you have any questions about me or my projects in general, please feel free to send me an email.
+<h2 id="herzlich-willkommen">Herzlich Willkommen</h2>
+<p><br />
+Ich freue mich das sie auf meiner persönlichen Website vorbei schauen. Falls sie interresse an Projekten von mir haben schaue gerne mal auf den angegebenen Seiten vorbei.
+<br />
 <br /></p>
 
 <hr />
@@ -104,7 +124,7 @@ If you have any questions about me or my projects in general, please feel free t
 <hr />
 
 <p><br />
-<strong>Thank you!</strong></p>
+** Danke für den Besuch **</p>
 
   </div>
 
