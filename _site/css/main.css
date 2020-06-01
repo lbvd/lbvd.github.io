@@ -149,15 +149,15 @@ pre {
  */
 .site-header {
   border-top: 6px solid #424242;
-  border-bottom: 4px solid #e8e8e8;
-  background-color: #eeeeee;
-  min-height: 56px;
-  transition: 20ms;
+  border-bottom: 4px solid #424242;
+  background-color: #bbbbbb;
+  min-height: 64px;
+  transition: 20ms ease;
   position: relative;
   border-radius: 20%; }
   .site-header:hover {
     border-bottom: 9px solid #424242;
-    border-radius: 10%; }
+    border-radius: 50%; }
 
 .site-title {
   font-size: 26px;
@@ -220,7 +220,8 @@ pre {
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
-  border-radius: 20%; }
+  border-radius: 20%;
+  min-height: 20px; }
   .site-footer:hover {
     border-top: 9px solid #424242;
     border-radius: 10%; }
@@ -292,6 +293,17 @@ pre {
 .post-link {
   display: block;
   font-size: 24px; }
+
+.maincontent_header {
+  background-size: auto;
+  background-image: url(/images/head-pat.jpg); }
+
+.maincontent_body {
+  margin: auto;
+  background-color: #dddddd;
+  border: 3px;
+  border-radius: 4%;
+  border-color: #666666; }
 
 /**
  * Posts

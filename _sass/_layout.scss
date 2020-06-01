@@ -3,17 +3,17 @@
  */
 .site-header {
     border-top: 6px solid $grey-color-dark;
-    border-bottom: 4px solid $grey-color-light;
-    background-color: #eeeeee;
-    min-height: 56px;
-    transition: 20ms;
+    border-bottom: 4px solid $grey-color-dark;
+    background-color: #bbbbbb;
+    min-height: 64px;
+    transition: 20ms ease;
 
     // Positioning context for the mobile navigation icon
     position: relative;
     border-radius: 20%;
     &:hover{
       border-bottom: 9px solid $grey-color-dark;
-      border-radius: 10%;
+      border-radius: 50%;
     }
 }
 
@@ -109,6 +109,7 @@
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
     border-radius: 20%;
+    min-height: 20px;
     &:hover{
       border-top: 9px solid $grey-color-dark;
       border-radius: 10%;
@@ -209,10 +210,17 @@
 //extra classes
 
 .maincontent_header {
+  background-size: auto;
+  background-image: url(/images/head-pat.jpg);
 
 }
 
 .maincontent_body {
+  margin: auto;
+  background-color: #dddddd;
+  border: 3px;
+  border-radius: 4%;
+  border-color: #666666;
 
 }
 
