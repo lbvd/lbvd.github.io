@@ -8,6 +8,9 @@
 # Site settings
 title: FAJ Impressionen
 email: luca.derrez@yahoo.de
+handy: +49 163 9260115
+street: Amselweg 20
+village: 72663 Großbettlingen
 description: Ein Bericht über mein Freiwilligendienst in Neuseeland, Informationen über mich und Informationen für Mitglieder meines Unterstüzerkreises.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
