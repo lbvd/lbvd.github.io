@@ -222,7 +222,7 @@
   transition: 1000ms;
   &:hover {
     border-radius: 0%;
-    text-align-last: justify;
+    text-align-last: left;
     text-decoration: none;
   }
 
@@ -234,9 +234,8 @@
   background-color: #dddddd;
   border-radius: 4%;
   border-color: #666666;
-  &:hover{
-    border: 3px solid #999999;
-  }
+
+
 
 }
 

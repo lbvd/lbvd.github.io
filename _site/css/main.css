@@ -307,7 +307,7 @@ pre {
   transition: 1000ms; }
   .maincontent_header:hover {
     border-radius: 0%;
-    text-align-last: justify;
+    text-align-last: left;
     text-decoration: none; }
 
 .maincontent_body {
@@ -316,8 +316,6 @@ pre {
   background-color: #dddddd;
   border-radius: 4%;
   border-color: #666666; }
-  .maincontent_body:hover {
-    border: 3px solid #999999; }
 
 /**
  * Posts
