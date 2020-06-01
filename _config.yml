@@ -6,12 +6,12 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: LBVD
-email: lbvd@protonmail.com
-description: My personal website
-baseurl: "" 
-url: "https://lbvd.github.io" # the base hostname & protocol for your site
-github_username:  lbvd
+title: FAJ Impressionen
+email: luca.derrez@yahoo.de
+description: Ein Bericht über mein Freiwilligendienst in Neuseeland, Informationen über mich und Informationen für Mitglieder meines Unterstüzerkreises.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+
 
 # Build settings
 markdown: kramdown

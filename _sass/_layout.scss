@@ -5,14 +5,10 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    margin: 3px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
-
-
-
 
 .site-title {
     font-size: 26px;
@@ -21,23 +17,10 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    border-radius: 12%;
-    
+
     &,
     &:visited {
         color: $grey-color-dark;
-    }
-}
-.site-title img {
-    height: 20px;
-    width: auto;
-    margin-bottom: 0;
-    float: left;
-    border-radius: 12%;
-
-    &,
-    &:hover {
-       border-radius: 45%;
     }
 }
 
@@ -116,11 +99,7 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    background-color: #444499;
     padding: $spacing-unit 0;
-    &:hover{
-       border-top: 7px solid $grey-color-dark;
-    }
 }
 
 .footer-heading {
@@ -214,7 +193,15 @@
     display: block;
     font-size: 24px;
 }
+//extra classes
 
+.maincontent_header {
+
+}
+
+.maincontent_body {
+  
+}
 
 
 /**
@@ -259,104 +246,5 @@
         @include media-query($on-laptop) {
             font-size: 18px;
         }
-     }
-
-     img {
-        border: 4px solid #000000;
-        border-radius: 5%;
     }
-}
-
-
-// additional classes
-
-.about-style {
-   
-   background-image: url("/images/p1.jpg");
-   height: 400px;
-
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   backround-size: cover;
-}
-@media only screen and (max-device-width: 1366px) {
-  .about-style {
-    background-attachment: scroll;
-  }
-}
-
-// for includes text.html
-.image1-text_a {
-   background-image: url("/images/p1.jpg");
-   height: 200px;
-
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   backround-size: cover;
-
-}
-
-.image1-text_b {
-   background-image: url("/images/p2.jpg");
-   height: 200px;
-
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   backround-size: cover;
-}
-
-@media only screen and (max-device-width: 1366px) {
-  .image1-text_a,
-  .image1-text_b {
-    background-attachment: scroll;
-  }
-}
-
-
-.image2-text {
-   position: relative;
-   width: 50%;
-}
-
-.image-t {
-   display: block;
-   width: 100%;
-   height: auto;
-}
-
-.overlay-t {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.image2-text:hover .overlay-t {
-  opacity: 1;
-}
-
-.text-t {
-  color: white;
-  font-size: 25px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-
-.title-text {
-   background-color: #aaaaaa;
-   font-size: 20px;
-   font-color: #0a0a0a;
-   font-family: "Times New Roman", Times, serif;
 }
