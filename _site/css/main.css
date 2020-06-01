@@ -295,8 +295,16 @@ pre {
   font-size: 24px; }
 
 .maincontent_header {
+  border: 3px solid #444444;
+  border-radius: 10%;
+  text-align: center;
+  text-decoration: line-through;
   background-size: auto;
-  background-image: url(/images/head-pat.jpg); }
+  background-image: url(/images/head-pat.jpg);
+  transition: 1000ms; }
+  .maincontent_header:hover {
+    border-radius: 0%;
+    text-decoration: none; }
 
 .maincontent_body {
   margin: auto;
