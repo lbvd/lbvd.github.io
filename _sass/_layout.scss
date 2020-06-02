@@ -5,7 +5,7 @@
     border-top: 6px solid $grey-color-dark;
     border-bottom: 4px solid $grey-color-dark;
     background-color: #bbbbbb;
-    min-height: 64px;
+    min-height: 75px;
     transition: 20ms ease;
 
     // Positioning context for the mobile navigation icon
@@ -14,6 +14,9 @@
     &:hover{
       border-bottom: 9px solid $grey-color-dark;
       border-radius: 50%;
+      min-height: 80px;
+      //background-image: url(/images/header-bg.png);
+      background-color: #FFFFFF;
     }
 }
 
@@ -112,6 +115,8 @@
     min-height: 20px;
     transition: 500ms;
     background-image:url('/images/footer-bg.png');
+    background-position: center;
+    background-attachment: fixed;
     &:hover{
       border: 9px solid $grey-color-dark;
       border-radius: 60%;
@@ -131,7 +136,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $grey-color-dark;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -231,7 +236,7 @@
 .maincontent_body {
   font-size: 20px;
   margin: 5px;
-  background-color: #dddddd;
+  background-color: #eeeeee;
   border-radius: 4%;
   border-color: #666666;
 

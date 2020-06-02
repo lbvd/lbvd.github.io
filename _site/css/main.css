@@ -151,13 +151,15 @@ pre {
   border-top: 6px solid #424242;
   border-bottom: 4px solid #424242;
   background-color: #bbbbbb;
-  min-height: 64px;
+  min-height: 75px;
   transition: 20ms ease;
   position: relative;
   border-radius: 20%; }
   .site-header:hover {
     border-bottom: 9px solid #424242;
-    border-radius: 50%; }
+    border-radius: 50%;
+    min-height: 80px;
+    background-color: #FFFFFF; }
 
 .site-title {
   font-size: 26px;
@@ -223,7 +225,9 @@ pre {
   border-radius: 20%;
   min-height: 20px;
   transition: 500ms;
-  background-image: url("/images/footer-bg.png"); }
+  background-image: url("/images/footer-bg.png");
+  background-position: center;
+  background-attachment: fixed; }
   .site-footer:hover {
     border: 9px solid #424242;
     border-radius: 60%; }
@@ -239,7 +243,7 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #828282;
+  color: #424242;
   margin-left: -15px; }
 
 .footer-col {
@@ -313,7 +317,7 @@ pre {
 .maincontent_body {
   font-size: 20px;
   margin: 5px;
-  background-color: #dddddd;
+  background-color: #eeeeee;
   border-radius: 4%;
   border-color: #666666; }
 
