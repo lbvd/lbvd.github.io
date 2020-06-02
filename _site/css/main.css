@@ -152,7 +152,7 @@ pre {
   border-bottom: 4px solid #424242;
   background-color: #bbbbbb;
   min-height: 75px;
-  transition: 20ms ease;
+  transition: 600ms ease;
   position: relative;
   border-radius: 20%; }
   .site-header:hover {
@@ -224,7 +224,7 @@ pre {
   padding: 30px 0;
   border-radius: 20%;
   min-height: 20px;
-  transition: 500ms;
+  transition: ease 1000ms;
   background-image: url("/images/footer-bg.png");
   background-position: center;
   background-attachment: fixed; }
@@ -308,7 +308,7 @@ pre {
   text-decoration: underline;
   background-size: auto;
   background-image: url(/images/head-pat.jpg);
-  transition: 1000ms; }
+  transition: 1000ms all; }
   .maincontent_header:hover {
     border-radius: 0%;
     text-align-last: left;

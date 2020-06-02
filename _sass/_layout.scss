@@ -6,7 +6,7 @@
     border-bottom: 4px solid $grey-color-dark;
     background-color: #bbbbbb;
     min-height: 75px;
-    transition: 20ms ease;
+    transition: 600ms ease;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -113,7 +113,7 @@
     padding: $spacing-unit 0;
     border-radius: 20%;
     min-height: 20px;
-    transition: 500ms;
+    transition: ease 1000ms;
     background-image:url('/images/footer-bg.png');
     background-position: center;
     background-attachment: fixed;
@@ -224,7 +224,7 @@
   text-decoration: underline;
   background-size: auto;
   background-image: url(/images/head-pat.jpg);
-  transition: 1000ms;
+  transition: 1000ms all;
   &:hover {
     border-radius: 0%;
     text-align-last: left;

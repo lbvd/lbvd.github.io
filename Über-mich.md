@@ -4,6 +4,8 @@ title: Über mich
 permalink: /ich/
 ---
 
+Ich schließe dieses Jahr meine schulische Laufbahn mit einer Fachhochschulreife ab und habe vor mich in vielerlei Hinsicht weiter zu bilden und gemeinnützige Taten zu vollbringen.
+<br>
 
 Da dies eine Seite ist, welche von jedem erreicht werden kann werde ich hier keine sensiblen Informationen über mich veröffentlichen. in dieser Hinsicht bitte ich um Ihr Verständniss. Falls sie Fragen bezüglich meiner Person haben würde ich sie bitten mich einfach zu fragen.
 <br>
