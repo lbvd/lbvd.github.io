@@ -198,7 +198,7 @@
 
 .post-list {
     margin-left: 0;
-    list-style: none;
+    list-style: disc;
 
     > li {
         margin-bottom: $spacing-unit;
@@ -234,11 +234,25 @@
 }
 
 .maincontent_body {
-  font-size: 20px;
-  margin: 5px;
+
+    font-size: 20px;
+    margin: 7px;
+
+  margin: 19px;
   background-color: #eeeeee;
   border-radius: 4%;
   border-color: #666666;
+
+.impressum {
+  min-height: 60px;
+  background-image: url(/images/impressum.png);
+  background-position: center;
+  background-repeat: space;
+  background-attachment: fixed;
+  &:hover {
+    border: solid 3px #aaaaaa;
+  }
+}
 
 
 
