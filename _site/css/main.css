@@ -202,19 +202,26 @@ pre {
           width: 18px;
           height: 15px; }
           .site-nav .menu-icon > svg path {
-            fill: #424242; }
-      .site-nav .trigger {
-        clear: both;
-        display: none; }
-      .site-nav:hover .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px;
-        margin-left: 20px; }
-        .site-nav .page-link:not(:last-child) {
-          margin-right: 0; } }
+            fill: #424242; } }
+
+.trigger {
+  /* Change the link color to #111 (black) on hover */ }
+  .trigger ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  .trigger li {
+    float: left; }
+  .trigger li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+  .trigger li a:hover {
+    background-color: #111; }
 
 /**
  * Site footer

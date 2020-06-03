@@ -14,11 +14,12 @@
       </a>
 
       <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
+
+        <ul>
+
+          <li><a href="https://derrez.info/impressum/"> Impressum </a><li>
+          <li><a href="https://derrez.info/ich/"> Über mich </a></li>
+        </ul>
       </div>
     </nav>
 
