@@ -16,5 +16,6 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://derrez.info" # the base hostname & protocol for your site
 
 
+
 # Build settings
 markdown: kramdown
