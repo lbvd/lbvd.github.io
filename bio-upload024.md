@@ -1,5 +1,6 @@
 ---
-permalink: /bio-upload024.md/
+layout: none
+permalink: /experiment/bio-upload024.md/
 ---
 
 <html>
@@ -37,8 +38,11 @@ Biologie
 <br>
 
 Artbildung [Download als PDF][1]
+
 [1]:{{ site.url }}/downloads/Artbildung.pdf
+
 <br>
+
 Gendrift [Download als PDF][2]
 
 [2]:{{ site.url }}/downloads/Gendrift.pdf
