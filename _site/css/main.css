@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Reset some basic elements
  */
@@ -234,7 +235,8 @@ pre {
   transition: ease 1000ms;
   background-image: url("/images/footer-bg.png");
   background-position: center;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-size: 80%; }
   .site-footer:hover {
     border: 9px solid #424242;
     border-radius: 60%; }
@@ -315,7 +317,12 @@ pre {
   text-decoration: underline;
   background-size: auto;
   background-image: url(/images/head-pat.jpg);
-  transition: 1000ms all; }
+  transition: 1000ms all;
+  transform: rotate3d();
+  transition-delay: 50ms;
+  transition-timing-function: cubic-bezier();
+  transform-origin: center;
+  transition-property: all; }
   .maincontent_header:hover {
     border-radius: 0%;
     text-align-last: left;
@@ -328,14 +335,40 @@ pre {
   background-color: #eeeeee;
   border-radius: 4%;
   border-color: #666666; }
-  .maincontent_body .impressum {
-    min-height: 60px;
-    background-image: url(/images/impressum.png);
-    background-position: center;
-    background-repeat: space;
-    background-attachment: fixed; }
-    .maincontent_body .impressum:hover {
-      border: solid 3px #aaaaaa; }
+
+.impressum {
+  margin: 20px;
+  min-width: 200px;
+  min-height: 300px;
+  background-image: url(/images/impressum-bg.png);
+  background-position: center;
+  background-repeat: space;
+  background-attachment: fixed;
+  background-size: cover;
+  transform-style: preserve-3d;
+  transform: rotate(180);
+  transition: 1000ms;
+  opacity: 5%; }
+  .impressum:hover {
+    border: solid 5px #aaaaaa;
+    opacity: 60%; }
+
+.about {
+  margin: 20px;
+  min-width: 200px;
+  min-height: 200px;
+  background-image: url(/images/übermich-bg.jpg);
+  background-position: center;
+  background-repeat: space;
+  background-attachment: fixed;
+  background-size: cover;
+  transform-style: preserve-3d;
+  transform: rotate(180);
+  transition: 1000ms;
+  opacity: 5%; }
+  .about:hover {
+    border: solid 5px #aaaaaa;
+    opacity: 90%; }
 
 /**
  * Posts

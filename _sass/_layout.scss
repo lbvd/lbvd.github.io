@@ -126,6 +126,7 @@
     background-image:url('/images/footer-bg.png');
     background-position: center;
     background-attachment: fixed;
+    background-size:80%;
     &:hover{
       border: 9px solid $grey-color-dark;
       border-radius: 60%;
@@ -234,6 +235,12 @@
   background-size: auto;
   background-image: url(/images/head-pat.jpg);
   transition: 1000ms all;
+  transform: rotate3d();
+  transition-delay: 50ms;
+  transition-timing-function: cubic-bezier();
+  transform-origin: center;
+  transition-property: all;
+
   &:hover {
     border-radius: 0%;
     text-align-last: left;
@@ -251,21 +258,48 @@
   background-color: #eeeeee;
   border-radius: 4%;
   border-color: #666666;
+}
 
 .impressum {
-  min-height: 60px;
-  background-image: url(/images/impressum.png);
+  margin: 20px;
+  min-width: 200px;
+  min-height: 300px;
+  background-image: url(/images/impressum-bg.png);
   background-position: center;
   background-repeat: space;
   background-attachment: fixed;
+  background-size: cover;
+  transform-style: preserve-3d;
+  transform: rotate(180);
+  transition: 1000ms;
+  opacity: 5%;
   &:hover {
-    border: solid 3px #aaaaaa;
+    border: solid 5px #aaaaaa;
+    opacity: 60%;
+  }
+}
+
+.about {
+  margin: 20px;
+  min-width: 200px;
+  min-height: 200px;
+  background-image: url(/images/übermich-bg.jpg);
+  background-position: center;
+  background-repeat: space;
+  background-attachment: fixed;
+  background-size: cover;
+  transform-style: preserve-3d;
+  transform: rotate(180);
+  transition: 1000ms;
+  opacity: 5%;
+  &:hover {
+    border: solid 5px #aaaaaa;
+    opacity: 90%;
   }
 }
 
 
 
-}
 
 
 /**

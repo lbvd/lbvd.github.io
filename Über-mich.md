@@ -3,7 +3,8 @@ layout: page
 title: Über mich
 permalink: /ich/
 ---
-
+<div class='about'>
+</div>
 Ich schließe dieses Jahr meine schulische Laufbahn mit einer Fachhochschulreife ab und habe vor mich in vielerlei Hinsicht weiter zu bilden und gemeinnützige Taten zu vollbringen.
 <br>
 

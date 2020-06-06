@@ -2,16 +2,19 @@
 layout: default
 permalink: /impressum/
 ---
-
+<h1 style='position: center'> Kontakt und Impressum </h1>
+<br>
+<html>
 <div class="impressum">
 
 </div>
+</html>
 
 Betreiber:
 
     Luca Derrez
     hosted on GitHub Pages
-    created with Jekyll 
+    created with Jekyll
 
 Anschrift:
 
