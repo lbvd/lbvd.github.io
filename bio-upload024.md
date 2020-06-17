@@ -58,6 +58,6 @@ Selektionsfaktoren von herr M. [Download als PDF][3]
 
 Aufgaben zur Genetik [Download als PDF][4]
 
-[4]:{{ site.url }}/downloads/Agenetik.PDF
+[4]:{{ site.url }}/downloads/Agenetik.pdf
 <br>
 <br>
