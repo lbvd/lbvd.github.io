@@ -19,3 +19,12 @@ url: "https://derrez.info" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+#bootsrap settings
+
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+exclude: []
+
