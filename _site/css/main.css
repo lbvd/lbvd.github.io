@@ -227,6 +227,18 @@ pre {
 /**
 * Me Part
 */
+.img-propotions {
+  max-width: 20%;
+  height: auto;
+  border: 5px solid #e8e8e8;
+  border-radius: 30%;
+  opacity: 90%;
+  transition: 1000ms all;
+  padding: 30px 2; }
+  .img-propotions:hover {
+    border-radius: 50%;
+    opacity: 100%; }
+
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   padding-top: 70px;
   padding-bottom: 70px; }
@@ -256,7 +268,8 @@ pre {
   background-image: url("/images/footer-bg.png");
   background-position: center;
   background-attachment: fixed;
-  background-size: 80%; }
+  background-size: 80%;
+  align: center; }
   .site-footer:hover {
     border: 9px solid #424242;
     border-radius: 60%; }

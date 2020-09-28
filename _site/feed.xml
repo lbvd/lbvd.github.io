@@ -3,10 +3,10 @@
   <channel>
     <title>Freiwilligendienst</title>
     <description>Ein Bericht über mein Freiwilligendienst in Neuseeland, Informationen über mich und Informationen für Mitglieder meines Unterstüzerkreises.</description>
-    <link>https://derrez.info/</link>
-    <atom:link href="https://derrez.info/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 28 Sep 2020 10:55:59 +0200</pubDate>
-    <lastBuildDate>Mon, 28 Sep 2020 10:55:59 +0200</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 28 Sep 2020 11:55:02 +0200</pubDate>
+    <lastBuildDate>Mon, 28 Sep 2020 11:55:02 +0200</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
   </channel>

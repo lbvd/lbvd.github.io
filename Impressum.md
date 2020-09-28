@@ -15,6 +15,7 @@ Betreiber:
     Luca Derrez
     hosted on GitHub Pages
     created with Jekyll
+    using Bootstrap Framework
 
 Anschrift:
 
