@@ -112,6 +112,24 @@
 
 }
 
+/**
+* Me Part
+*/
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.bg-bs-1 {
+    background-image:url(/images/20190824_193047.jpg);
+  }
+  .bg-bs-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-bs-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
 
 
 /**
@@ -229,6 +247,30 @@
 /**
  * Page content
  */
+.contaianer-show {
+  padding: 80px 120px;
+
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+  }
+  .carousel-caption h3 {
+    color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .bg-1 {
+    background-color: #2c2f33;
+    color: #bdbdbd;
+  }
+
 .page-content {
     padding: $spacing-unit 0;
 }
