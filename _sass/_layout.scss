@@ -116,13 +116,13 @@
 * Me Part
 */
 .img-propotions {
-  max-width: 20%;
-  height: auto;
+  max-width: 15%;
+  height: 15%;
   border: 5px solid $grey-color-light;
   border-radius: 30%;
   opacity: 90%;
   transition: 1000ms all;
-  padding: $spacing-unit 2;
+
   &:hover{
     border-radius: 50%;
     opacity:100%;
@@ -134,17 +134,34 @@
 }
 .bg-bs-1 {
     background-image:url(/images/20190824_193047.jpg);
+    background-attachment: fixed;
   }
   .bg-bs-2 {
     background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
+    color: #222;
   }
   .bg-bs-3 {
-    background-color: #ffffff; /* White */
+    background-image: url('/images/SMPs 2016-2416.jpg');
+
+    background-position: center;
+    background-attachment: fixed;
     color: #555555;
   }
 
+  .bg-bs-4 {
+    background-image: url('/images/20190824_193047.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+  }
 
+  .bg-bs-5 {
+    background-image: url('/images/Peace.png');
+    background-size:contain;
+    background-attachment: fixed;
+    color: #fff;
+    background-blend-mode: color-burn;
+  }
 /**
  * Site footer
  */
@@ -156,8 +173,8 @@
     transition: ease 1000ms;
     background-image:url('/images/footer-bg.png');
     background-position: center;
-    background-attachment: fixed;
-    background-size:80%;
+    background-attachment: scroll;
+    background-size:120%;
     align: center;
     &:hover{
       border: 9px solid $grey-color-dark;
@@ -464,7 +481,7 @@
 
     h3 {
         font-size: 26px;
-
+        padding: 7%;
         @include media-query($on-laptop) {
             font-size: 22px;
         }
